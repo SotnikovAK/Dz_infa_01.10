@@ -52,8 +52,8 @@ def medved(x,y,n,a,b,c,l):
     ellipse(screen,(a,b,c), (x+int(130/n),y-int(70/n*k),int(180/n),int(95*k/n)),0)
     ellipse(screen,(0,0,0), (x+int(130/n),y-int(70/n*k),int(180/n),int(95*k/n)),1)
     #uchi
-    circle(screen,(a,b,c), (x+int(155/n),y-int(50/n*k)),15/n)
-    circle(screen,(0,0,0), (x+int(155/n),y-int(50/n*k)),15/n,1)
+    circle(screen,(a,b,c), (x+int(155/n),y-int(50/n*k)),int(15/n))
+    circle(screen,(0,0,0), (x+int(155/n),y-int(50/n*k)),int(15/n),1)
     #glaza
     circle(screen,(a,b,c), (x+int(210/n),y-int(35/n*k)),5)
     circle(screen,(0,0,0), (x+int(210/n),y-int(35/n*k)),5)
