@@ -15,7 +15,7 @@ def nebo(x,y):
     r = int(240*k)
     A = 15
     circle(screen, (161, 249, 228), (x,y-A), r)
-    circle(screen, (0, 255, 255), (x,y-A), (int(240-50)*k))
+    circle(screen, (0, 255, 255), (x,y-A), int((240-50)*k))
     #first_perekladina
     polygon(screen, (161, 249, 228), [(x-r-5,y-int(25*k)-5-A), (x-r-5,y+int(15*k)-5-A),(x+r+5,y+int(25*k)+5-A), (x+r+5,y-int(15*k)+5-A)], 0)
     polygon(screen, (220, 247, 218), [(x-r,y-int(25*k)-5-A), (x-r,y+int(15*k)-5-A),(x-r+int(50*k),y+int(15*k)-5-A), (x-r+int(50*k),y-int(25*k)-3-A)], 0)
